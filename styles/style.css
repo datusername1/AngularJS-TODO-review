@@ -1,0 +1,39 @@
+#app {
+  width: 100%;
+  height: 80vh;
+  margin-left: 5%;
+  margin-top: 5vh;
+}
+
+#addItem,
+#app h2 {
+  margin-bottom: 3%;
+}
+
+#list {
+  height: 80%;
+  width: 60%;
+}
+
+#listItem {
+  display: flex;
+  margin: 2%;
+}
+
+#listItem li {
+  margin-left: 1%;
+}
+
+.listStyle {
+  list-style-type: none;
+}
+
+#listItem {
+  border: 1px solid black;
+}
+
+.listDisplay {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}

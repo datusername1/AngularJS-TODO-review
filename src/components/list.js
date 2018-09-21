@@ -1,4 +1,4 @@
-angular.module('video-player')
+angular.module('todo-app')
   .component('todoList', {
-    //TODO
+    templateUrl: 'src/templates/list.html'
   });
