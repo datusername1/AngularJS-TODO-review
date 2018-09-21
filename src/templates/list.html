@@ -2,11 +2,7 @@
   My TODO list:
   <div class="listDisplay">
     <ul class="listStyle">
-      <list-item>Your list items goes here</list-item>
-      <list-item>Your list items goes here</list-item>
-      <list-item>Your list items goes here</list-item>
-      <list-item>Your list items goes here</list-item>
-      <list-item>Your list items goes here</list-item>
+      <list-item ng-repeat="(index, todo) in $ctrl.todoList" delete-todo="$ctrl.deleteTodo" index="index" todo="todo">Your list items goes here</list-item>
     </ul>
   </div>
 </div>
