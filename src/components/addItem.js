@@ -1,4 +1,4 @@
 angular.module('todo-app')
-  .component('todoList', {
+  .component('addItem', {
     //TODO
   });
